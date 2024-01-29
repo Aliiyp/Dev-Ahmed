@@ -42,8 +42,8 @@
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/T7_Au",
+        "description": "ضـع رابـط جروب الـدعـم",
+        "value": "https://t.me/iFlne",
         "required": false
       }
     },
