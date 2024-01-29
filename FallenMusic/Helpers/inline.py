@@ -39,7 +39,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
             ],
             [
-            InlineKeyboardButton("⦓ 𓏺𝗌𝗈𝗎𝘙𝖼𝖾 𝘼𝘭𝘴𝘩 . ⦔", url=f"https://t.me/iFlne"),
+            InlineKeyboardButton("⦓ 𓏺𝘴𝘰𝘶𝙍𝘤𝘦 𝙏𝘦𝘰 . ⦔", url=f"https://t.me/iFlne"),
         ]
     ]
 )
@@ -54,7 +54,7 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="• سوࢪس علي •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• سوࢪس تيو •", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="• قناه الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
@@ -74,7 +74,7 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="• سوࢪس علي •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• سوࢪس تيو •", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
