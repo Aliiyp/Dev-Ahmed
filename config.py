@@ -24,4 +24,4 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iFlne")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5656828413").split()))
 
 
-FAILED = "https://telegra.ph/file/9cd60e6de8355a8866eda.jpg"
+FAILED = "https://imgg.io/image/FUULY"
