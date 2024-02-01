@@ -55,7 +55,7 @@ pm_buttons = [
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="• سوࢪس تيو •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• قناة الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
