@@ -65,7 +65,7 @@ from FallenMusic.Helpers.thumbnails import gen_qthumb, gen_thumb
     & ~filters.via_bot
 )
 async def play(_, message: Message):
-    fallen = await message.reply_text("⎊ جارٍ التحميل ⚡")
+    fallen = await message.reply_text("⎊ جارٍ التحميل ")
     try:
         await message.delete()
     except:
@@ -178,7 +178,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit_text("⎊ اكتب اسم الاغنيه اليَ تريد تشغلها")
-        await fallen.edit_text("⎊ جارٍ التشغيل ⚡")
+        await fallen.edit_text("⎊ جارٍ التشغيل انتضر  ")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -238,7 +238,7 @@ async def play(_, message: Message):
             )
         except TelegramServerError:
             return await fallen.edit_text(
-                "⎊ حدثت مشكلة جرب اقفل الكول وافتح مره ثانيه"
+                "⎊ حدثت مشكلة جرب اقفل الاتصال وافتح مره ثانيه"
             )
         except UnMuteNeeded:
             return await fallen.edit_text(
