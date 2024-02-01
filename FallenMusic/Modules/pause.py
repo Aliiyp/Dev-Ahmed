@@ -43,6 +43,6 @@ async def pause_str(_, message: Message):
     await pytgcalls.pause_stream(message.chat.id)
     await stream_off(message.chat.id)
     return await message.reply_text(
-        text=f"⎊ تم ايقاف التشغيل مؤقتاً 🎧\n \n⎊ بواسطة : {message.from_user.mention} ♥",
+        text=f"⎊ تم ايقاف التشغيل مؤقتاً 🎧\n \n⎊ بواسطة : {message.from_user.mention} ",
         reply_markup=close_key,
     )
